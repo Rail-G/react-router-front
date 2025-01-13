@@ -1,16 +1,16 @@
-Hooks & Context API
+[![Build status](https://ci.appveyor.com/api/projects/status/2bvcqq8jyxke0yx2?svg=true)](https://ci.appveyor.com/project/Rail-G/react-router-front)
+
+React Router
 ===
 
-[![Build status](https://ci.appveyor.com/api/projects/status/bqv1nq92ronpku6x?svg=true)](https://ci.appveyor.com/project/Rail-G/react-hook-frontend)
+Необходимо выполнить и предоставить на проверку следующие задачи:
 
-Выполнены и представлены на проверку следующие задачи:
+1. [Меню](./src/tsx/menu).
+1. [CRUD](./src/tsx/crud).
+1. [authentication](./src/tsx/authentication) — необязательная задача.
 
-1. [useEffect](src/tsx/use-effect).
-1. [useJsonFetch](src/tsx/useJsonFetch).
-1. [authentication](src/tsx/authentication) — необязательная задача.
-
-~~Все три задачи лучше сдавать в разных репозиториях, то есть через create-react-app реализовать три проекта, чтобы не
-было конфликта стилей. Но если вы позаботитесь о том, что конфликта не будет, то можете сдавать и в одном проекте.~~
+Все три задачи лучше сдавать в разных репозиториях, то есть через create-react-app реализовать три проекта, чтобы не
+было конфликта стилей. Но если вы позаботитесь о том, что конфликта не будет, то можете сдавать и в одном проекте.
 
 #### Альтернативный способ создания приложения React с использованием тулинга Vite
 
