@@ -23,9 +23,9 @@ export function MainRoute() {
             <Route path="/" element={<HelloPage/>}/>
             <Route path="/task2"  element={<Layout />}>
                 <Route index element={<MainPageSecond />} loader={postsLoader}/>
-                <Route path="/task2/posts/new" element={<CreatePost />}/>
-                <Route path="/task2/posts/:id" element={<PostView/>} loader={postLoader}/>
-                <Route path="/task2/posts/update/:id" element={<UpdatePost/>} loader={postLoader}/>
+                <Route path="posts/new" element={<CreatePost />}/>
+                <Route path="posts/:id" element={<PostView/>} loader={postLoader}/>
+                <Route path="posts/update/:id" element={<UpdatePost/>} loader={postLoader}/>
             </Route>
             <Route path="/task3" element={<HelloDefPage />}></Route>
                 <Route path="/task3/news" element={<Protect><HelloRegPage/></Protect>}></Route>

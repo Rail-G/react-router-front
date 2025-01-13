@@ -10,7 +10,7 @@ export async function postsLoader(): Promise<{data: Promise<Post[] | []>}> {
 
 export async function postLoader ({ params }: LoaderFunctionArgs): Promise<LoaderFunction> {
     const { id } = params;
-    const res = await fetch(`http://localhost:7070/posts/${id}`);
+    const res = await fetch(`https://react-router-backend-694e.onrender.com/posts/${id}`);
     const post = await res.json();
     return post;
 };
