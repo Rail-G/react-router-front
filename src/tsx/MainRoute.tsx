@@ -37,7 +37,10 @@ export function MainRoute() {
                 <Route path="forza" element={<ForzaPage />} />
             </Route>
             </>
-        )
+        ),
+        {
+            basename: '/react-router-front'
+        }
     )
     return (
         <ContextProvider>
